@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="bottom"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_record"
+            style="@style/AudioTextStyle"
+            android:drawableTop="@drawable/record"
+            android:text="@string/record"/>
+
+        <TextView
+            android:id="@+id/tv_luoli"
+            style="@style/AudioTextStyle"
+            android:drawableTop="@drawable/luoli"
+            android:text="@string/luoli"/>
+
+        <TextView
+            android:id="@+id/tv_dashu"
+            style="@style/AudioTextStyle"
+            android:drawableTop="@drawable/dashu"
+            android:text="@string/dashu"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_jingsong"
+            style="@style/AudioTextStyle"
+            android:drawableTop="@drawable/jingsong"
+            android:text="@string/jingsong"/>
+
+        <TextView
+            android:id="@+id/tv_gaoguai"
+            style="@style/AudioTextStyle"
+            android:drawableTop="@drawable/gaoguai"
+            android:text="@string/gaoguai"/>
+
+        <TextView
+            android:id="@+id/tv_kongling"
+            style="@style/AudioTextStyle"
+            android:drawableTop="@drawable/kongling"
+            android:text="@string/kongling"/>
+    </LinearLayout>
+
+</LinearLayout>

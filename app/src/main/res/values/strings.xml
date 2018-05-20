@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Voice_Change</string>
+    <string name="record">原声</string>
+    <string name="luoli">萝莉</string>
+    <string name="dashu">大叔</string>
+    <string name="jingsong">惊悚</string>
+    <string name="gaoguai">搞怪</string>
+    <string name="kongling">空灵</string>
+</resources>
